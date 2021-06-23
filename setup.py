@@ -1,6 +1,6 @@
 from setuptools import setup,find_packages
 
-version = '0.1.1'
+version = '0.1.2'
 
 with open('readme.md', 'r', encoding = 'utf-8') as f:
     long_description = f.read()
@@ -13,7 +13,7 @@ setup(
         description = 'A module to get info from somerandomstuff api',
         long_description = long_description,
         long_description_content_type = 'text/markdown',
-        url = None,  
+        url = "https://github.com/Sengolda/somerandomstuffpy",  
         author = 'Sengolda',
         license = 'MIT', 
         install_requires = ['requests'],
