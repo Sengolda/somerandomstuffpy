@@ -1,21 +1,22 @@
-from setuptools import setup,find_packages
+### SomeRandomStuff.py
+- a module made to get info from the some-random-stuff api!
+- How to install:
+   - install from pypi: `pip install -U somerandomstuff.py -U`
+    - Install from github: `pip install -U git+https://github.com/Sengolda/somerandomstuffpy`
 
-version = '0.1.2'
-
-with open('readme.md', 'r', encoding = 'utf-8') as f:
-    long_description = f.read()
-pkgs = [
-    'somerandomstuff'
-]
-setup(
-        name = 'somerandomstuff.py',
-        version = version,
-        description = 'A module to get info from somerandomstuff api',
-        long_description = long_description,
-        long_description_content_type = 'text/markdown',
-        url = "https://github.com/Sengolda/somerandomstuffpy",  
-        author = 'Sengolda',
-        license = 'MIT', 
-        install_requires = ['requests'],
-        packages = find_packages(include=['*']),
-)
+##### Examples
+- getting images
+```py
+from somerandomstuff import Session
+print(Session.get_image("cat"))
+```
+- getting facts
+```py
+from somerandomstuff import Session
+print(Session.get_fact("cat"))
+```
+- Getting a random token/password
+```py
+from somerandomstuff import Session
+print(Session.get_random_token()))
+```
