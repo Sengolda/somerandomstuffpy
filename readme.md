@@ -1,7 +1,7 @@
 ### SomeRandomStuff.py
 - a module made to get info from the some-random-stuff api!
 - How to install:
-   - install from pypi: `pip install -U somerandomstuff.py -U`
+   - install from pypi: `pip install somerandomstuff.py -U`
     - Install from github: `pip install -U git+https://github.com/Sengolda/somerandomstuffpy`
 
 ##### Examples
