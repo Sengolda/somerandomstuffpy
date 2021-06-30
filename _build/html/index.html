@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>SomeRandomStuff.py &#8212; somerandomstuff.py  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/groundwork.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="#">somerandomstuff.py  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SomeRandomStuff.py</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="somerandomstuff-py">
+<h1>SomeRandomStuff.py<a class="headerlink" href="#somerandomstuff-py" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>a module made to get info from the some-random-stuff api!</p></li>
+<li><p>How to install:</p>
+<ul>
+<li><p>install from pypi: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">somerandomstuff.py</span> <span class="pre">-U</span></code></p></li>
+<li><p>Install from github: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">git+https://github.com/Sengolda/somerandomstuffpy</span></code></p></li>
+</ul>
+</li>
+</ul>
+<section id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>getting images</p></li>
+</ul>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">somerandomstuff</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Session</span><span class="o">.</span><span class="n">get_image</span><span class="p">(</span><span class="s2">&quot;cat&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>getting facts</p></li>
+</ul>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">somerandomstuff</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Session</span><span class="o">.</span><span class="n">get_fact</span><span class="p">(</span><span class="s2">&quot;cat&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Getting a random token/password</p></li>
+</ul>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">somerandomstuff</span> <span class="kn">import</span> <span class="n">Session</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Session</span><span class="o">.</span><span class="n">get_random_token</span><span class="p">()))</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">SomeRandomStuff.py</a><ul>
+<li><a class="reference internal" href="#examples">Examples</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="#">somerandomstuff.py  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SomeRandomStuff.py</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Sengolda.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+    </div>
+  </body>
+</html>
